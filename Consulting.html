@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyche Consulting Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="contact.js"></script>
+  </head>
+  <body>
+        <!-- Header Section -->
+        <header>
+          <img class="header-background" src="build.jpeg" alt="Background Image">
+          <div class="header-overlay"></div>
+                  <h1><a href="Consulting.html" style="text-decoration: none; color: inherit;">Dyche Consulting Services</a></h1>
+                  <nav>
+                       <!-- Navigation menu --> 
+                    <ul>
+  
+                      <li><a href="contract-management.html">Contract Management</a></li>
+                      <li><a href="demand-planning.html">Demand Planning</a></li>
+                      <li><a href="financial-modeling.html">Financial Modeling</a></li>
+                      <li><a href="visual-data-modeling.html">Visual Data Modeling</a></li>
+                      <li><a href="customer-success-story.html">Customer Testimonial</a></li>
+                      
+                    </ul>
+                  </nav>
+              </div>
+          </div>
+      </header>
+
+    <!-- Contract Management Section -->
+    <section id="Our Services">
+      <h2>Simplifying Success: Your Path to Effortless Solutions</h2>
+      <p>In today's competitive business landscape, unlocking your organization's potential is essential. My consulting business offers a comprehensive suite of services, tailored to simplify success and deliver transformative results across various areas of your operations.</p>
+     
+      <p>Leveraging my expertise and cutting-edge generative AI, I provide customized solutions that address your unique business needs, from streamlining processes and enhancing decision-making to predicting trends and generating valuable insights.</p> 
+
+      <p> Choose my consulting services and experience the power of simplified success. By partnering with me, you ensure that your organization operates efficiently, mitigates risks, and capitalizes on growth opportunities.</p>
+      
+      <p>Together, we'll pave your path to a thriving, future-proof organization.</p>
+      <a href="#" class="btn">Learn More</a>
+    </section>
+    
+    <!-- Rest of the code remains the same -->
+
+    
+
+    <!-- President's Biography Section -->
+    
+    <section id="president-bio">
+        <h2>Get to know your consultant</h2>
+        <p>
+        <section id="president-photo">
+          <h2></h2>
+          <img src="Philip.JPG" alt="President's Headshot" style="float: left; margin-right: 20px; margin-bottom: 10px;">
+
+        <p>Philip Dyche has over 4 years of hands-on management experience. He holds a Bachelor's degree in Nuclear Physics with additonal studies in Mathematics, and Business  from Augusta University and is currently pursuing an MBA in Operations Management to further hone his expertise. With his solid academic background and practical industry experience, Philip possesses a unique skill set that enables him to develop customized solutions to complex business challenges.</p>
+    
+    <p>Philip's professional journey began as a Capacity Planning Analyst at Southern Company Gas, where he gained invaluable experience in the intricacies of the industry. He leverages this practical experience, along with his academic achievements, to provide clients with innovative and effective consulting solutions. His areas of expertise include contract management, process improvement, forecasting and regression, and visual data modeling.</p>
+
+    <p>As a consultant, I understand that every business is unique and requires a tailored approach to achieve success. That's why I take the time to get to know my clients and their specific needs, and work closely with them to develop customized solutions that deliver results.</p>
+
+    <p>In addition to my expertise, I am known for being approachable, easy to work with, and for delivering projects on time and within budget. I believe that a successful consulting experience is one where my clients feel heard and valued, and I strive to create an environment where open communication and collaboration are at the forefront of every engagement.</p>
+        </p>
+        
+           
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; Dyche Consulting Services</p>
+      <p>123 Main Street, Suite 200, Anytown, USA 12345</p>
+      <p>Name: Philip Dyche</p>
+      <p>Email: Phildyche1@gmail.com</p>
+      <p>Phone: (678)722-1138</p>
+      <button id="contact-us-btn">Contact Us</button>
+    </div>
+    
+  </footer>
+
+  <!-- JavaScript for Dropdown Menu -->
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function dropdownMenu() {
+      document.getElementById("dropdown-content").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    
+  </script>
+  </body>
+</html>
