@@ -1,17 +1,15 @@
 /* Body Styles */
 body {
-  background-color: #f5f5f5;
+  background-color: #f5f5f500;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
-  margin: 0;
-  padding: 0;
 }
 
 /* Header Styles */
 header {
-  background-color: #1c2331;
+  background-color: #1c2331c0;
   color: #fdfcfc;
   padding: 20px;
   display: flex;
@@ -50,6 +48,7 @@ header nav li:first-child {
   margin-left: 0;
 }
 
+/* this is the header section*/
 header nav a {
   text-decoration: none;
   color: #fffdfd;
@@ -72,7 +71,7 @@ section {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+/* this is 'lets develop together" */
 section h2 {
   margin-top: 0;
   font-size: 2rem;
@@ -170,6 +169,7 @@ footer {
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
+
 footer p {
   margin-bottom: 0;
 }
@@ -263,6 +263,33 @@ a:hover {
   }
 }
 
+.header {
+  position: relative;
+}
+
+.header-background {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.header-overlay {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+
+#customer-success-story ul li a {
+  color: rgba(255, 43, 43, 0.918);
+}
+
 @media only screen and (max-width: 768px) {
   /* Styles for screens smaller than 768px */
   header nav {
@@ -270,63 +297,18 @@ a:hover {
     align-items: flex-start;
     margin-top: 20px;
   }
-
+  
   header nav li {
     margin: 10px 0;
   }
-
+  
   #president-photo img {
     width: 100%;
     height: auto;
   }
-
+  
   .btn {
     font-size: 0.8rem;
     padding: 8px 16px;
   }
 }
-
-/* Background Gradient */
-.background-gradient {
-  background-image: linear-gradient(135deg, #1c2331, #46667c);
-}
-
-/* Font Styles */
-body, p, a, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
-}
-
-/* Typography */
-.heading {
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #ffffff;
-}
-
-.subheading {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 40px;
-}
-
-/* Responsive design */
-@media only screen and (max-width: 480px) {
-  .heading {
-    font-size: 1.8rem;
-  }
-
-  .subheading {
-    font-size: 1.2rem;
-  }
-
-  .btn {
-    font-size: 0.7rem;
-    padding: 6px 12px;
-  }
-}
-
-
-
