@@ -328,5 +328,28 @@ body, p, a, h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.nav-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.show-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 
 
