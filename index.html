@@ -25,6 +25,7 @@
                       
                     </ul>
                   </nav>
+          <button class="nav-toggle" onclick="toggleNavMenu()">&#9776;</button>
               </div>
           </div>
       </header>
@@ -98,7 +99,10 @@
         }
       }
     }
-    
+   function toggleNavMenu() {
+    const nav = document.querySelector("nav");
+    nav.classList.toggle("show-menu");
+  } 
   </script>
-  </body>
+ </body>
 </html>
